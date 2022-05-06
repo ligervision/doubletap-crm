@@ -2,7 +2,10 @@ body{
     font-family: sans-serif;
 }
 
-
+.backimg{
+    background-image: url(/images/Group\ 15.png);
+    background-color:blue;
+}
 
 
 .container {
@@ -32,10 +35,6 @@ body{
     margin-top:10px;
     margin-bottom: 100px;
     border-radius:25px;
-}
-
-#facebook {
-
 }
 
 .bottom{
