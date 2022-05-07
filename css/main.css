@@ -24,6 +24,28 @@ body{
     margin-bottom:20px;
 }
 
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 20px;
+    width: 150px;
+    height: 70px;
+    margin:auto;
+    margin-top:10px;
+    text-align: center;
+  }
+
+#accounttext {
+    color:white;
+    font-size:small;
+    text-align:center;
+}
+
+.paddingtime{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
 .center{
     margin: auto;
     width: 15%;
