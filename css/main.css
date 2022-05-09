@@ -7,6 +7,12 @@ body{
     background-color:blue;
 }
 
+.backg {
+    background-color: blue;
+    text-align: center;
+    color:white;
+
+}
 
 .container {
     display: flex;
@@ -16,6 +22,7 @@ body{
 
 .topmargin {
     margin-top:100px;
+    
 }
 
 .toptext{
@@ -34,6 +41,46 @@ body{
     margin-top:10px;
     text-align: center;
   }
+
+
+#uppertext {
+    margin-top:5%;
+    font-size:x-large;
+    text-align: center;
+}
+
+#group15 {
+    margin-left:25%;
+}
+
+.left-half {
+background-color:blue;
+position: absolute;
+left: 0px;
+width: 50%;
+color:white;
+height:875px;
+border-bottom-right-radius: 100%;
+}
+
+.right-half {
+
+position: absolute;
+right: 0px;
+width: 50%;
+}
+
+  #rcorners3 {
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin:auto;
+    font-size:x-large;
+    text-align: center;
+  }
+
 
 #accounttext {
     color:white;
@@ -57,6 +104,22 @@ body{
     margin-top:10px;
     margin-bottom: 100px;
     border-radius:25px;
+}
+
+.contain {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". .";
+  }
+  
+
+.margins{
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .bottom{
